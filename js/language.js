@@ -14,7 +14,7 @@
     const d4=document.querySelector('.d4');
     const d5=document.querySelector('.d5');
     const d6=document.querySelector('.d6');
-    const d7=document.querySelector('.d7');
+
     const d8=document.querySelector('.d8');
     const d9=document.querySelector('.d9');
     const d10=document.querySelector('.d10');
@@ -22,18 +22,7 @@
     const d12=document.querySelector('.d12');
     const d13=document.querySelector('.d13');
     const d14=document.querySelector('.d14');
-    const d15=document.querySelector('.d15');
-    const d16=document.querySelector('.d16');
-    const d17=document.querySelector('.d17');
-    const d18=document.querySelector('.d18');
-    const d19=document.querySelector('.d19');
-    const d20=document.querySelector('.d20');
-    const d21=document.querySelector('.d21');
-    const d22=document.querySelector('.d22');
-    const d23=document.querySelector('.d23');
-    const d24=document.querySelector('.d24');
-    const d25=document.querySelector('.d25');
-    const d26=document.querySelector('.d26');
+
 
 
 
@@ -59,11 +48,7 @@
     const t19=document.querySelector('.t19');
     const t20=document.querySelector('.t20');
     const t21=document.querySelector('.t21');
-    const t22=document.querySelector('.t22');
-    const t23=document.querySelector('.t23');
-    const t24=document.querySelector('.t24');
-    const t25=document.querySelector('.t25');
-    const t26=document.querySelector('.t26');
+
     const t27=document.querySelector('.t27');
 
     const a1=document.querySelector('.a1');
@@ -82,6 +67,25 @@
     const a14=document.querySelector('.a14');
     const a15=document.querySelector('.a15');
 
+    const k1=document.querySelector('.k1');
+    const k2=document.querySelector('.k2');
+    const k3=document.querySelector('.k3');
+    const k4=document.querySelector('.k4');
+    const k5=document.querySelector('.k5');
+    const k6=document.querySelector('.k6');
+    const k7=document.querySelector('.k7');
+
+    const m=document.querySelector('.m');
+    const m1=document.querySelector('.m1');
+    const m2=document.querySelector('.m2');
+    const m3=document.querySelector('.m3');
+    const m4=document.querySelector('.m4');
+    const m5=document.querySelector('.m5');
+    const m6=document.querySelector('.m6');
+
+    const s=document.querySelector('.s');
+
+
 		link.forEach(el => {
 			el.addEventListener('click', () => {
 				//langEl.querySelector('.active').classList.remove('active');
@@ -97,7 +101,7 @@
         d4.textContent =data[attr].d4;
         d5.textContent =data[attr].d5;
         d6.textContent =data[attr].d6;
-        d7.textContent =data[attr].d7;
+
         d8.textContent =data[attr].d8;
         d9.textContent =data[attr].d9;
         d10.textContent =data[attr].d10;
@@ -105,22 +109,9 @@
         d12.textContent =data[attr].d12;
         d13.textContent =data[attr].d13;
         d14.textContent =data[attr].d14;
-        d15.textContent =data[attr].d15;
-        d16.textContent =data[attr].d16;
-        d17.textContent =data[attr].d17;
-        d18.textContent =data[attr].d18;
-        d19.textContent =data[attr].d19;
-        d20.textContent =data[attr].d16;
-        d21.textContent =data[attr].d17;
-        d22.textContent =data[attr].d18;
-        d23.textContent =data[attr].d23;
-        d24.textContent =data[attr].d16;
-        d25.textContent =data[attr].d17;
-        d26.textContent =data[attr].d18;
 
         t1.textContent =data[attr].t1;
         t2.textContent =data[attr].t2;
-        t3.textContent =data[attr].t3;
         t4.textContent =data[attr].t4;
         t5.textContent =data[attr].t5;
         t6.textContent =data[attr].t6;
@@ -139,12 +130,7 @@
         t19.textContent =data[attr].t19;
         t20.textContent =data[attr].t20;
         t21.textContent =data[attr].t21;
-        t22.textContent =data[attr].t22;
-        t23.textContent =data[attr].t23;
-        t24.textContent =data[attr].t24;
-        t25.textContent =data[attr].t25;
-        t25.textContent =data[attr].t25;
-        t26.textContent =data[attr].t26;
+
         t27.textContent =data[attr].t27;
 
 
@@ -160,9 +146,26 @@
         a10.textContent=data[attr].a10;
         a11.textContent=data[attr].a11;
         a12.textContent=data[attr].a12;
-        a13.textContent=data[attr].a12;
-        a14.textContent=data[attr].a12;
-        a15.textContent=data[attr].a12;
+
+
+        k1.textContent=data[attr].k1;
+        k2.textContent=data[attr].k2;
+        k3.textContent=data[attr].k3;
+        k4.textContent=data[attr].k4;
+        k5.textContent=data[attr].k5;
+        k6.textContent=data[attr].k6;
+        k7.textContent=data[attr].k7;
+
+        m.textContent=data[attr].m;
+        m1.textContent=data[attr].m1;
+        m2.textContent=data[attr].m2;
+        m3.textContent=data[attr].m3;
+        m4.textContent=data[attr].m4;
+        m5.textContent=data[attr].m5;
+        m6.textContent=data[attr].m6;
+
+        s.textContent=data[attr].s;
+
 
 
 			});
@@ -172,7 +175,7 @@
 			  "english":
 			  {
 			    "title": "Home",
-				  "t1":"About",
+				  "t1":"About us",
           "t2":"Services",
           "t3":"Pricing",
           "t4":"Pages",
@@ -184,7 +187,7 @@
           "t10":"Highly Professional Staff",
           "t11":"Learn More",
           "t12":"Our Location",
-          "t13":"Adiss Abeba,Ethiopia",
+          "t13":"Garment AA condominium,Adiss Abeba",
           "t14":"Email Us",
           "t15":"Call Us",
           "t16":"LEARN ABOUT US",
@@ -204,20 +207,20 @@
           "a2":"Help",
           "a3":"Support",
           "a4":"Quality Laundry Service",
-          "a5":"Highly Professional Staff",
-          "a6":"Express Fast Delivery",
+          "a5":"Express Fast Delivery",
+          "a6":"Highly Professional Staff ",
           "a7":"100% Satisfaction Gguarantee",
           "a8":"Our Services",
-          "a9":"Basic",
-          "a10":"Standard",
-          "a11":"Premium",
-          "a12":"Client Name",
+          "a9":"Abel Abere",
+          "a10":"Adey Girma",
+          "a11":"Mekonnen Zenbu",
+          "a12":"ementa bamelak",
           "a13":"",
           "a14":"",
 
           "d1":"We Are Quality Laundry Provider In Your City",
           "d2":"Dry Cleaning",
-          "d3":"Wash & Laundry",
+          "d3":"shose cleaning",
           "d4":"Curtain Laundry",
           "d5":"Suits Cleaning",
           "d6":"Years Expereince",
@@ -226,9 +229,9 @@
           "d9":"Dry Cleaning",
           "d10":"Years Expereince",
           "d11":"Order Place",
-          "d12":"Free Pick Up",
+          "d12":"Pick up from where you are",
           "d13":"Dry Cleaning",
-          "d14":"Free Delivery",
+          "d14":"Delivery from your location",
           "d15":"Dry Cleaning",
           "d16":"Wash & Laundry",
           "d17":"Curtain Laundry",
@@ -242,7 +245,22 @@
           "d25":"",
           "d26":"",
 
+          "k1":"Belli",
+          "k2":"ssma",
+          "k3":"images",
+          "k4":"video",
+          "k5":"We provide the best service at the lowest price and we also offer pick up and delivery service from your home.",
+          "k6":"Why our customers choose us:",
+          "k7":"one of the reason that you should choose us is that we have more than 3 years experience and all of our customers happy about the service  we provide",
 
+          "m":"student",
+          "s":"i had been the customer of Bellissma for years and they always provide me with the best quality services",
+          "m1":"accountant",
+          "m2":"teacher",
+          "m3":"Business owner",
+          "m4":"i like their customer service and their quickness",
+          "m5":" Bellissma laundry service location is near me and they are open all week so check them out.",
+          "m6":"Bellissma laundry service provide a service of pick up and delivery.",
 
 
 
@@ -250,7 +268,7 @@
 			  "amharic":
 			  {
 				  "title":"ቤት",
-          "t1":"ስለ",
+          "t1":"ስለ እኛ",
           "t2":"አገልግሎቶች",
           "t3":"  የዋጋ አሰጣጥ",
           "t4":"ገፆች",
@@ -262,7 +280,7 @@
           "t10":"ከፍተኛ ሙያዊ ሰራተኞች",
           "t11":"የበለጠ እወቅ",
           "t12":"የእኛ ቦታ",
-          "t13":"አዲስ አበባ፣ ኢትዮጵያ",
+          "t13":"ጋርመንት AA ኮንዶሚኒየም፣አዲስ አበባ",
           "t14":"በኢሜል ይላኩልን",
           "t15":"ይደውሉልን",
           "t16":"ስለእኛ ተማር",
@@ -276,27 +294,27 @@
           "t24":"የእኛ ብሎግ",
           "t25":"የቅርብ ጊዜ ከብሎግ",
           "t26":"ምስክርነት",
-          "t27":"ደንበኞቻችን ይላሉ",
+          "t27":"ደንበኞቻችን ምንይላሉ",
 
           "a1":"የሚጠየቁ ጥያቄዎች",
           "a2":"እገዛ",
           "a3":"ድጋፍ",
           "a4":"ጥራት ያለው የልብስ ማጠብ አገልግሎት",
-          "a5":"ከፍተኛ ባለሙያ ሠራተኞች",
-          "a6":"ፈጣን መላኪያ ይግለጹ",
+          "a5":"ፈጣን የማድረስ አገልግሎት እንሰጣለን።",
+          "a6":"ከፍተኛ ባለሙያ ሠራተኞች",
           "a7":"100% እርካታ ታገኛላችሁ",
           "a8":"እኛ የምናቀርበው",
-          "a9":"መሰረታዊ",
-          "a10":"መደበኛ",
-          "a11":"ፕሪሚየም",
-          "a12":"የደንበኛ ስም",
+          "a9":"አቤል አበረ",
+          "a10":"አደይ ግርማ",
+          "a11":"መኮንን ዘነብ",
+          "a12":"እምነት ባምላክ",
           "a13":"",
           "a14":"",
 
 
           "d1":"እኛ በከተማዎ ውስጥ ጥራት ያለው የልብስ ማጠብ አገልግሎት አቅራቢ ነን",
           "d2":"ደረቅ ጽዳት",
-          "d3":"ማጠብ እና ማጠብ",
+          "d3":"የጫማ ማጽዳት",
           "d4":"መጋረጃ የልብስ ማጠቢያ",
           "d5":"የሱፍ ልብስ ማፅዳት",
           "d6":"የዓመታት ልምድ",
@@ -304,10 +322,10 @@
           "d8":"ደስተኛ ደንበኞች",
           "d9":"ደረቅ ጽዳት",
           "d10":"የዓመታት ልምድ",
-          "d11":"ቦታ ማዘዝ",
-          "d12":"ነፃ ማንሳት",
+          "d11":"ባሉበት ቦታ ማዘዝ",
+          "d12":"ካሉበት ቦታ ማንሳት",
           "d13":"ደረቅ ጽዳት",
-          "d14":"ነፃ ማድረስ",
+          "d14":"ካሉበት ቦታ ማድረስ",
           "d15":"ደረቅ ጽዳት",
           "d16":"ማጠብ እና ማጠብ",
           "d17":"ምላሽ ሰጪ አቀማመጥ",
@@ -321,6 +339,22 @@
           "d25":"",
           "d26":"",
 
+          "k1":"ቤሊ",
+          "k2":"ስማ",
+          "k3":"ምስሎች",
+          "k4":"ቪዲዮ",
+          "k5":"በዝቅተኛ ዋጋ ምርጥ አገልግሎት እንሰጣለን እንዲሁም ከቤትዎ ማንሳት እና ማድረስ አገልግሎት እንሰጣለን።",
+          "k6":"ደንበኞቻችን የሚመርጡንበት ምክንያት:",
+          "k7":"እርስዎ ሊመርጡን ከሚገባቸው ምክንያቶች አንዱ ከ 3 ዓመት በላይ ልምድ ስላለን እና ሁሉም ደንበኞቻችን በምንሰጠው አገልግሎት ደስተኛ ናቸው።",
+
+          "m":"ተማሪ",
+          "s":"የቤሊሳማ ደንበኛ ለዓመታት ነበርኩ እና ሁልጊዜ ጥሩ ጥራት ያለው አገልግሎት ይሰጡኛል።",
+          "m1":"አካውንታንት",
+          "m2":"መምህር",
+          "m3":"የንግድ ሥራ ባለቤት",
+          "m4":"የደንበኛ አገልግሎታቸውን እና ፈጣንነታቸውን እወዳለሁ።",
+          "m5":"የቤሊሲማ የልብስ ማጠቢያ አገልግሎት ቦታ አጠገቤ ነው እና ሳምንቱን ሙሉ ክፍት ስለሆኑ ይመልከቱዋቸው።",
+          "m6":"የቤሊሲማ የልብስ ማጠቢያ አገልግሎት የማንሳት እና የማድረስ አገልግሎት ይሰጣል።",
 			  }
 
 
